@@ -331,7 +331,15 @@ enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/6e646e07-f61d-4cdf-8808-2e051ae4ed90" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+log back into "Client-1" with your domain user login credentials.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/66031a89-614a-42ef-b667-5cfdfcee9dd8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -339,15 +347,7 @@ enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/b187c43f-f809-4cd0-b5a2-06f7720ccf1b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
