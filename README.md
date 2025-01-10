@@ -229,7 +229,104 @@ Select "Add a new Forest", name the "Root Domain Name" as "mydomain.com. Click n
 <img src="https://github.com/user-attachments/assets/c15452a6-d413-4fbd-858c-d6dd47ce8255" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This will automatically restart, once its done log back in on Remote Desktop Connection to "DC-1". We need to specify that we are logging in as a Domain Controller Admin!"
+This will automatically restart, once its done log back in on Remote Desktop Connection to "DC-1". We need to specify that we are logging in as a Domain Controller User!"
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/5b226c03-07cb-4129-9c58-2123ca14e8d1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Update your credentials to "mydomain.com\labuser" with same password "Password123!"
+</p>
+<br />
+
+
+<h2>Create a Domain Admin User!</h2>
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/eb26f7a5-9645-4d20-af7c-58bea028604c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/e11b56b0-aba4-44a2-8084-8a64cc38ab07" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/56d27776-027e-4ce4-b75e-8dbe0769fda5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/b601d0ee-2f73-4353-a0f7-18cd54287fa8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/b4e89ed3-8a9f-4cf4-9d31-a63bfe7f6a68" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/7fada27e-18d4-4c9b-bc1a-b9f1afa363fe" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/a76a8885-b262-4031-aee2-cd5158efbe6e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/65eec4e5-e687-4d09-9779-9321e6e4a808" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will then have you restart the system. Log back in again.
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/b980509f-0c9e-4872-8507-301cfc3dcab1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/76a7cca7-19d8-47d0-9b51-676b88e9dcab" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 </p>
 <br />
 
@@ -249,5 +346,79 @@ This will automatically restart, once its done log back in on Remote Desktop Con
 </p>
 <br />
 
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
+</p>
+<br />
 
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+  
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="
+  " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+  
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="
+  " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+  
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
