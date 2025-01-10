@@ -355,7 +355,7 @@ log back into "Client-1" with your domain user login credentials.
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9d6c721e-d78b-4571-8c44-530cdaddc2b7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
