@@ -238,18 +238,24 @@ This will automatically restart, once its done log back in on Remote Desktop Con
 </p>
 <p>
 Update your credentials to "mydomain.com\labuser" with same password "Password123!"
+
 </p>
 <br />
 
 
 <h2>Create a Domain Admin User!</h2>
 
+<p>
+Now lets create an Admin and normal User!
+<p>
+</p>
+
 
 <p>
 <img src="https://github.com/user-attachments/assets/eb26f7a5-9645-4d20-af7c-58bea028604c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Go to your DC-1 VM, under windows start and "Windows Administrative Tools", pull up "Active Directory and Computers"
 </p>
 <br />
 
@@ -257,7 +263,7 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/e11b56b0-aba4-44a2-8084-8a64cc38ab07" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Right click on "mydomain.com", click "New" and create an "Organization Unit".
 </p>
 <br />
 
@@ -265,7 +271,7 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/56d27776-027e-4ce4-b75e-8dbe0769fda5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+We are going to name this "_EMPLOYEES".This is where we will then later put our employees in for Users!
 </p>
 <br />
 
@@ -273,7 +279,7 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/b601d0ee-2f73-4353-a0f7-18cd54287fa8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Lets create another one but go to "Users", name this one "_ADMINS" make sure to spell correctly with an underscore and all caps!
 </p>
 <br />
 
@@ -281,7 +287,7 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/b4e89ed3-8a9f-4cf4-9d31-a63bfe7f6a68" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+We are then going to create our Admin user. I chose the name "Jim John" for this Admin. Make the user login name "jim_admin".
 </p>
 <br />
 
@@ -289,7 +295,9 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/7fada27e-18d4-4c9b-bc1a-b9f1afa363fe" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+After that go to the Properties of "jim John", under "Member Of" "Add" Jim as a "Domain Admin", click "Check names" then hit "OK".
 
+Now that you have created your first AdminUser. Lets log out of this DC-1 VM and log back in using your new admin user login!
 </p>
 <br />
 
@@ -297,7 +305,7 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/a76a8885-b262-4031-aee2-cd5158efbe6e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Log back in with "mydomain.com\jim_admin" and your same password!
 </p>
 <br />
 
@@ -305,20 +313,15 @@ Update your credentials to "mydomain.com\labuser" with same password "Password12
 <img src="https://github.com/user-attachments/assets/65eec4e5-e687-4d09-9779-9321e6e4a808" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will then have you restart the system. Log back in again.
+Once logged in, Right click the windows start button and go to "System". Then over at "Rename this PC" click "Change" to change this domains name to "mydomain.com" 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
 
 <p>
 <img src="https://github.com/user-attachments/assets/b980509f-0c9e-4872-8507-301cfc3dcab1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
-
+</p>
+You can go back to "Active Directory and Computer" under "Computers" you will see that "Client-1" is now associated to the "mydomain.com" server.
+<p>
 </p>
 <br />
 
@@ -326,7 +329,7 @@ enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will
 <img src="https://github.com/user-attachments/assets/76a7cca7-19d8-47d0-9b51-676b88e9dcab" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Create another "Orginization unit" and name this one "_CLIENTS", drag and drop "Client-1" computer into the new "_CLIENTS" folder. 
 </p>
 <br />
 
@@ -334,7 +337,7 @@ enter credentials "mydomain.com\jim_admin" and "Password123!" to verify, it will
 <img src="https://github.com/user-attachments/assets/6e646e07-f61d-4cdf-8808-2e051ae4ed90" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-log back into "Client-1" with your domain user login credentials.
+log into "Client-1" with your domain user login credentials as "mydomain.com\jim_admin".
 </p>
 <br />
 
@@ -342,7 +345,7 @@ log back into "Client-1" with your domain user login credentials.
 <img src="https://github.com/user-attachments/assets/66031a89-614a-42ef-b667-5cfdfcee9dd8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Under Windows System, go to the "Remote Desktop" section to allow the domain users desktop for remote access. Click "Select users that can remotely access this PC". 
 </p>
 <br />
 
@@ -350,75 +353,86 @@ log back into "Client-1" with your domain user login credentials.
 <img src="https://github.com/user-attachments/assets/b187c43f-f809-4cd0-b5a2-06f7720ccf1b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Click "Add" and "Check names" as "Domain Users" then hit "OK". You now have Client-1 enabled for Remote Access!
 
+Now the fun part, lets then go to "DC-1" and load in a bunch of additional users with a script!
 </p>
 <br />
 
+
+<h2>Creating Additional Users with Powershell!</h2>
+
+
+<p>
+Log back into "DC-1" as "Jim_admin"
 <p>
 <img src="https://github.com/user-attachments/assets/9d6c721e-d78b-4571-8c44-530cdaddc2b7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+In the search bar, look up "Windoes Powershell IISE" as an Administrator!
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/6219cb07-10f7-4493-8e53-1bb1cfca5f9e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Now you have opened up Powershell on your VM!
+</p>
+<br />
 
+
+<p>
+<img src="https://github.com/user-attachments/assets/0fa187a1-fd1b-43fb-a361-c78e7dafe90b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Take this Script that was made by Josh Madakor on his Github, https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 this Script will then generate 1,000 users in your "_EMPLOYEE" folder!
+<p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/3fb40c2d-5a05-4fe5-9c6d-2cd9e80fec29" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Copy and paste this to a folder on your PC and Name it "create-users", open this file up into your Powershell!
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/dc4bce5b-ad9e-4f77-a31e-aa246780a31c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-  
-</p>
-<br />
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
+Click the "Play" button at the top to run this Script. This may take a while but if you dont need 1,000 users, you can stop this script anytime.
 </p>
 <br />
 
 <p>
-<img src="
-  " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/35ae3d37-c1b1-4566-aac8-c7b3672d14f8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-  
+Once done, go back into your Active directory and computers and observe all the new users in the "_EMPLOYEES" folder. Choose one to then log into "Client-1" with, i chose "cob.tic" but you will have a different combination of users so pick any you would like!
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/a74b5eda-31b3-449a-bf7f-a2dd06179990" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-</p>
+Log back into "Client-1" as your new user you have made with "mydomain.com\cob.tic" and "Password123!" as your login!
 <br />
 
-<p>
-<img src="
-  " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
-  
-</p>
-<br />
+<h2>End of the Lab!</h2>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 
+
+Congrats! you have finished this lab and made your first Admin and Users for your Domain! You can use this same lab for another Tutorial i will have up in my Repositories on my Gethub!
+<p>
+Have a good one and have fun with Active Directory on Microsoft Azure! There is so many possibilities and things to learn!
+
+<p>
 </p>
 <br />
