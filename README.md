@@ -22,10 +22,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 - Create Virtual Network and Virtual Machines in Microsoft Azure
-- setup of domain controller and a client desktop vitual machine
+- Setup of domain controller and a client desktop vitual machine
 - Configure DNS settings to connect both desktops for remote access
-- ping to the dns server with powershell to ensure connection
-- 
+- Ping to the dns server with powershell to ensure connection
+- Install Active Directory on virtual machine
+- Create a Domain User for Active Directory
+- Add additional users with a script in Powershell
 
 <h2>Azure Virtual Machine Steps!</h2>
 
