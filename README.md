@@ -421,7 +421,7 @@ Once done, go back into your Active directory and computers and observe all the 
 <img src="https://github.com/user-attachments/assets/a74b5eda-31b3-449a-bf7f-a2dd06179990" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Log back into "Client-1" as your new user you have made with "mydomain.com\cob.tic" and "Password123!" as your login!
+Log back into "Client-1" as your new user you have made with "mydomain.com\cob.tic" and "Password1" as your login!
 <br />
 
 
