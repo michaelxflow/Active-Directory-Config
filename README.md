@@ -431,7 +431,7 @@ Log back into "Client-1" as your new user you have made with "mydomain.com\cob.t
 </p>
 
 
-Congrats! you have finished this lab and made your first Admin and Users for your Domain! You can use this same lab for another Tutorial i will have up in my Repositories on my Gethub!
+Congrats! you have finished this lab and made your first Admin and Users for your Domain! You can use this same lab for another Tutorial i will have up in my Repositories on my Github! https://github.com/michaelxflow/AD-Group-Policy-and-Managing
 <p>
 Have a good one and have fun with Active Directory on Microsoft Azure! There is so many possibilities and things to learn!
 
