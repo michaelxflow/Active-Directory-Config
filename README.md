@@ -3,7 +3,7 @@
 </p>
 
 <h1>Deploying Active Directory in Azure!</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. We will also be creating a Domain user along with additional users in this tutorial. This is going to be very fun lab and a great learning experience that you will use in your life as an IT Support Specialist!<br />
 
 
 
