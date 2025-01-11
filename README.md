@@ -66,7 +66,7 @@ For your image select "Windows Server 2022 Datacenter x64 Gen2" this is going to
 
 For the size I picked "Standard_E2_v3-2 vcpus,16GB memory" you can pick any that has at least 2 vcpus for this vm and 8GB or more for memory, this will ensure your VM to handle the loads of this lab!
 
-As seen obove, make your username and password for the login to this vm. I used "labuser" and "Password123!" as my password. You can make up your own, just make sure you dont forget it!
+As seen above, make your username and password for the login to this vm. I used "labuser" and "Password123!" as my password. You can make up your own, just make sure you dont forget it!
 
 <img src="https://github.com/user-attachments/assets/a18c8b50-2257-405d-a64e-d8cf35e80a6f" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
@@ -130,7 +130,7 @@ Go to "DC-1" to copy its Public IP Address, we are going to load up uor desktops
 <img src="https://github.com/user-attachments/assets/738afe62-47c9-4a3d-8ca6-352e294efe0b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Enter your Login Credentials to connectto the VM!
+Enter your Login Credentials to connect to the VM!
 </p>
 <br />
 
